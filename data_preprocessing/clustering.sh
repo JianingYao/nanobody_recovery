@@ -1,0 +1,1 @@
+./bin/mmseqs createdb /home/sunyvxuan/projects/nanobody/all_sequences.fasta nanodata ./bin/mmseqs linclust nanodata clustered tmp --min-seq-id 0.9 ./bin/mmseqs createtsv nanodata nanodata clustered cluster_result.tsv
